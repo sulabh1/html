@@ -1,0 +1,24 @@
+.aspect {
+  position: relative;
+}
+
+.aspect--bg-grey {
+  background-color: $g-card-bg-color;
+}
+// Used in I3 banner / Product Short
+.aspect--bg-grey-fb {
+  background-color: #fbfbfb;
+}
+
+.aspect--square {
+ padding-bottom: 100%;
+}
+/*
+  * Add this class inside '.aspect' child image element. If you want to make an image responsive then
+  * you can use utility u-img-fluid class.
+ */
+.aspect__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
